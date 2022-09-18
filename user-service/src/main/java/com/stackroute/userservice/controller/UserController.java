@@ -15,7 +15,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/api/v1")
-@CrossOrigin
+// @CrossOrigin
 public class UserController {
 
     // Injecting UserServiceImpl object dependency.

@@ -14,7 +14,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/v1")
-// @CrossOrigin
+@CrossOrigin
 public class UserController {
     private ResponseEntity responseEntity;
     private UserService userService;

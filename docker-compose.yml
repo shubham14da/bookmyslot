@@ -35,6 +35,7 @@ services:
     #    cap_add:
     #      - SYS_NICE
     environment:
+      MYSQL_DATABASE: userdb
       MYSQL_ROOT_PASSWORD: 'Password'
       MYSQL_PASSWORD: root
       MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
